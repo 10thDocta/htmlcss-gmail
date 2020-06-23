@@ -1,0 +1,118 @@
+* {
+  box-sizing: content-box;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+/* Imposto un font per tutto il documento */
+.all {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+/* Stile per l'intestazione */
+header {
+  background-color: rgba(6, 71, 46, 0.774);
+  color: whitesmoke;
+  text-align: center;
+  margin: auto;
+  padding: 10px 0;
+}
+
+.row1-h {
+  font-size: 17px;
+  text-align: center;
+  margin: auto;
+  display: block;
+  padding: 4px 0;
+  width: 32%;
+  border-left: 1px solid whitesmoke;
+  border-right: 1px solid whitesmoke;
+}
+
+/* Stile per il corpo del documento */
+main {
+  background-color: rgba(56, 141, 107, 0.911);
+}
+
+.row1-m {
+  padding-top: 1px;
+  display: block;
+  width: 99%;
+  padding-left: 10px;
+  border-bottom: 2px solid rgba(6, 71, 46, 0.774);
+}
+
+/* Stile primo div  */
+#exp {
+  padding-left: 15px;
+  padding-right: 10px;
+}
+
+#exp p {
+  margin-top: -17px;
+}
+
+/* Stile secondo div */
+#comp {
+  padding-left: 15px;
+  padding-right: 10px;
+}
+
+#comp p {
+  margin-top: -17px;
+}
+
+/* Stile interessi  */
+.interessi {
+  width: 99%;
+  display: inline-block;
+  padding-bottom: 20px;
+}
+
+.interessi div {
+  text-align: center;
+  padding: 10px;
+  margin: 2px auto;
+  display: block;
+  width: 30%;
+  border: 2px solid rgba(6, 71, 46, 0.774);
+}
+
+/* Stile footer  */
+footer {
+  height: 100px;
+  width: 100%;
+  background-color: rgba(6, 71, 46, 0.774);
+  color: whitesmoke;
+  font-size: 15px;
+}
+
+.row2 {
+  padding-top: 1px;
+  display: inline-block;
+  width: 48%;
+  padding-left: 10px;
+}
+
+footer img {
+  padding: 10px 0;
+  border-radius: 50%;
+  width: 12%;
+}
+
+/* !!!Non riesco a centrare il "p" in altezza!!! */
+footer p {
+  text-align: right;
+}

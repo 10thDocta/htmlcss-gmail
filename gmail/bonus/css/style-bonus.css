@@ -1,0 +1,86 @@
+body {
+  background-image: url("../../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  padding: 0 105px 0 35px;
+  margin: auto;
+}
+
+.border-bt {
+  border-bottom: 2px solid white
+}
+
+/* Inizio header */
+header {
+  width: 100%;
+}
+
+header img {
+  min-width: 80px;
+  vertical-align: middle;
+  width: 10%;
+}
+
+header h2 {
+  color: white;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+/* Fine header */
+/**************/
+/* Inizio main */
+/* Inizio search */
+.search {
+  margin-top: 7px;
+}
+
+.search h1 {
+  color: white;
+}
+
+h1 span {
+  background: orange;
+  border-radius: 50%;
+  display: inline-block;
+  padding: 6px;
+}
+
+/* Inizio inbox */
+.inbox {
+  padding: 8px 0;
+}
+
+.email {
+  background-color: lightgrey;
+  border: 1px solid black;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 3px 1px 0 3px;
+}
+
+.small {
+  color: grey;
+  font-size: 14px;
+}
+
+#second {
+  background-color: whitesmoke;
+}
+
+/* Inizio footer */
+footer p {
+  color: white;
+  font-size: 22px;
+  text-align: center;
+}
+
+.credit {
+  font-size: 14px;
+  font-style: italic;
+}
