@@ -1,0 +1,120 @@
+body {
+  box-sizing: content-box;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+/* Imposto un font per tutto il documento */
+.all {
+  font-family: monospace;
+}
+
+/* Stile per l'intestazione */
+header {
+  background-color: rgba(6, 29, 71, 0.774);
+  color: whitesmoke;
+  text-align: center;
+  margin: auto;
+  padding: 10px 0;
+}
+
+.row3 {
+  font-size: 17px;
+  text-align: center;
+  margin: auto;
+  display: inline-block;
+  padding: 10px 0;
+  width: 32%;
+}
+
+.mid {
+  border-left: 1px solid whitesmoke;
+  border-right: 1px solid whitesmoke;
+}
+
+/* Stile per il corpo del documento */
+main {
+  background-color: rgba(158, 185, 235, 0.63);
+}
+
+.cont-row {
+  border-bottom: 1px solid rgba(6, 29, 71, 0.774);
+}
+
+.row2 {
+  padding-top: 1px;
+  display: inline-block;
+  width: 48%;
+  padding-left: 10px;
+}
+
+/* Stile sezione sinistra  */
+#exp {
+  padding-left: 15px;
+  padding-right: 10px;
+}
+
+#exp p {
+  margin-top: -17px;
+}
+
+/* Stile sezione destra  */
+#comp {
+  padding-left: 15px;
+  padding-right: 10px;
+}
+
+#comp p {
+  margin-top: -17px;
+}
+
+/* Stile interessi  */
+.interessi {
+  text-align: center;
+  margin: 15px 0;
+  display: inline-block;
+}
+
+.interessi h2 {
+  display: inline-block;
+  padding-left: 15px;
+  margin-right: 50px;
+}
+
+.interessi div {
+  padding: 10px;
+  margin-right: 20px;
+  display: inline-block;
+  width: auto;
+  border: 2px solid rgba(6, 29, 71, 0.774);
+}
+
+/* Stile footer  */
+footer {
+  height: 100px;
+  width: 100%;
+  background-color: rgba(6, 29, 71, 0.774);
+  color: whitesmoke;
+  font-size: 15px;
+}
+
+footer img {
+  padding: 10px 0;
+  border-radius: 50%;
+  width: 12%;
+}
+
+/* Non riesco a centrare il "p" in altezza */
+footer p {
+  text-align: right;
+}
