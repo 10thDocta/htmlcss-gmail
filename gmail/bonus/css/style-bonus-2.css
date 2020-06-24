@@ -1,8 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background-image: url("../../img/bg.jpg");
+  background-image: url('../../img/bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -12,7 +15,7 @@ body {
 }
 
 .border-bt {
-  border-bottom: 2px solid white
+  border-bottom: 2px solid white;
 }
 
 /* Inizio header */
@@ -41,19 +44,19 @@ header h1 {
 }
 
 /* aggiungo uno stile alla casella di ricerca */
-.search input[type="text"] {
+.search input[type='text'] {
   background-color: whitesmoke;
 }
 
 /* aggiungo uno stile alla casella di ricerca quando ha il focus */
-.search input[type="text"]:focus {
+.search input[type='text']:focus {
   background-color: white;
-  color: blue;
+  color: darkblue;
 }
 
 .search p {
   color: white;
-  font-size: 25px
+  font-size: 28px;
 }
 
 .search span {
@@ -77,12 +80,19 @@ header h1 {
   padding: 3px 1px 0 3px;
 }
 
+/* stile per il testo piccolo dopo l'oggetto */
 .small {
   color: grey;
   font-size: 14px;
 }
 
-.second {
+/* .second {
+  background-color: whitesmoke;
+}*/
+/**/
+/**/
+/* applico lo stesso stile della classe .second ma usando il selettore :nth-of-type(x) */
+.inbox div:nth-of-type(2) {
   background-color: whitesmoke;
 }
 
