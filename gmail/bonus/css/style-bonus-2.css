@@ -84,6 +84,12 @@ header h1 {
 
 .second {
   background-color: whitesmoke;
+}*/
+/**/
+/**/
+/* applico lo stesso stile della classe .second ma usando il selettore :nth-of-type(x) */
+.inbox div:nth-of-type(2) {
+  background-color: whitesmoke;
 }
 
 /* Inizio footer */
